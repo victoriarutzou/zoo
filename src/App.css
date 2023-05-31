@@ -1,0 +1,224 @@
+
+/*CSS RESET*/
+* {
+  margin:0;
+  padding:0;
+  font:inherit;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img,picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+a {text-decoration: none;}
+
+ul, ol {list-style: none;}
+
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+@import url('https://fonts.cdnfonts.com/css/bahnschrift');
+
+h1 {
+  font-family: 'Rammetto One';
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Rammetto One';
+  font-size: 24px;
+}
+
+h3, label {
+  font-size: 24px;
+  font-family: 'Bahnschrift', sans-serif;
+  color:#0c5446;
+}
+
+p, input,a, button, label {
+  font-size: 18px;
+  font-family: 'Bahnschrift', sans-serif;
+  color:#0c5446;
+  
+}
+
+/*SPACE BETWEEN*/
+.space8 {
+  margin-bottom: 8px;
+}
+
+.space16 {
+  margin-bottom: 16px;
+}
+
+.space24 {
+  margin-bottom: 24px;
+}
+
+.space32 {
+  margin-bottom: 32px;
+}
+
+/*COLORS*/
+.white {color: #fcfaef;}
+.orange {color:#ff7955}
+.beige {color: #dbd0bd;}
+
+
+/*BUTTONS*/
+.square {
+  width: 100%;
+  max-width: 344px; 
+  height: 100px; 
+  background-color: #fcfaef; 
+  margin-right: 0;
+  margin-left: 0;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: rgba(169, 51, 0, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  align-items: center;
+  border-color: transparent;
+}
+
+
+.orangebtn {
+  border-radius: 12px;
+  background-color: #ff7955;
+  padding: 20px;
+  color:#fcfaef;
+  min-width: 200px;
+}
+
+.btnandhelp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Generelle ting*/
+
+.onboarding{
+  width: 100vw;
+  height: 100vh;
+  padding: 32px;
+  padding-top:64px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height:50px;
+  margin-bottom:24px;
+  border-radius: 12px;
+  padding: 8px;
+  background-color:#fffdf8;
+  border-color: #dbd0bd;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+/*Loading*/
+.loading {
+  background-color: #fcfaef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20vh;
+  position: relative;
+  background: linear-gradient(0deg, rgb(252, 250, 239) 0%, rgb(252, 239, 239) 100%)
+}
+
+.zoo {
+  font-size: 120px;
+  margin-top:-30px;
+}
+
+.jyllandspark {
+  font-size: 30px;
+}
+
+.logo{
+  text-align: center;
+  animation: grow 2s; 
+  animation-iteration-count: 1;
+  text-shadow: 0 13.36px 8.896px #ffdfd0,0 -2px 1px #fff;
+}
+
+@keyframes grow {
+  0% { transform: scale(0.5); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.elefant {
+  position: absolute;
+  bottom: 60px;
+  right: -1px;
+  max-width:70vw;
+}
+
+
+/*Velkommen*/
+.velkommen {
+  background: rgb(255,121,85);
+  background: linear-gradient(0deg, rgba(255,121,85,1) 0%, rgba(255,132,99,1) 100%)
+}
+
+/*Lav profil*/
+.lavprofil{
+  background-color: #fcfaef;
+  display: flex;
+  flex-direction: column; /*ARBEJD VIDERE HER!*/
+}
+
+/*Scan armbånd*/
+.scanarmbaand {background-color: #fcfaef;}
+
+.scan-animation {
+  max-width: 100%;
+  height: auto;
+}
+
+/*Navn*/
+.navn {background-color: #fcfaef;}
+
+/*Aktivearmbånd*/
+.aktivearmbaand {background-color: #fcfaef;}
+
+.elefanticon {
+  min-width: 65px;
+  max-width: 70px;
+  margin-right: 20px;
+}
+
+.addicon {
+  min-width: 65px;
+  max-width: 70px;
+  margin-right: 20px;
+  border: 3px dotted #dbd0bd;
+  border-radius: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
